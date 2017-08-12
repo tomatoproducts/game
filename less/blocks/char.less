@@ -1,0 +1,218 @@
+.char {
+  display: block;
+  width: 525px;
+  margin-right: 530px;
+  padding-left: 55px;
+}
+
+.char__name {
+  display: block;
+  width: 385px;
+  height: 85px;
+  margin-bottom: 15px;
+  background-image: url("../img/chars/2_CHARS_name_Isolda.png");
+  background-repeat: no-repeat;
+  background-position: -45px 50%;
+
+  &--pamela {
+    background-image: url("../img/chars/2_CHARS_name_Pamela.png");
+    background-repeat: no-repeat;
+    background-position: -45px 50%;
+  }
+
+}
+
+.char__class {
+  position: relative;
+  width: 293px;
+  height: 32px;
+  margin-bottom: 25px;
+  padding-left: 50px;
+  font-size: 21px;
+  color: rgb(255, 50, 58);
+  line-height: 1.333;
+  text-align: left;
+  text-shadow: 0px 5px 30px rgba(35, 27, 32, 0.004);
+}
+.char__class::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 25px;
+  height: 32px;
+  background-image: url("../img/chars/2_CHARS_fraction_Isolda.png");
+  background-repeat: no-repeat;
+}
+
+.char__descr {
+  width: 410px;
+  margin: 0;
+  margin-bottom: 18px;
+  padding: 0;
+
+  color: rgb(249, 244, 233);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 5px 30px rgba(35, 27, 32, 0.004);
+}
+
+.char__skills {
+  position: relative;
+  padding-left: 80px;
+
+  &--1 {
+    margin-bottom: 25px;
+  }
+  &--pamela {
+    margin-bottom: 25px;
+  }
+}
+
+.char__skills::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 58px;
+  height: 58px;
+
+  background-image: url("../img/chars/2_CHARS_skill_Isolda_1.png");
+  background-repeat: no-repeat;
+}
+.char__skills--2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 58px;
+  height: 58px;
+
+  background-image: url("../img/chars/2_CHARS_skill_Isolda_2.png");
+  background-repeat: no-repeat;
+}
+
+// второй слайд
+
+.char__skills--pamela::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 58px;
+  height: 58px;
+  background-image: url("../img/chars/2_CHARS_skill_Pamela_1.png");
+  background-repeat: no-repeat;
+}
+.char__skills--pamela2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 58px;
+  height: 58px;
+  background-image: url("../img/chars/2_CHARS_skill_Pamela_2.png");
+  background-repeat: no-repeat;
+}
+
+// третий слайд
+
+.char__skills--lleyn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 58px;
+  height: 58px;
+  background-image: url("../img/chars/2_CHARS_skill_Lleyn_1.png");
+  background-repeat: no-repeat;
+}
+.char__skills--lleyn2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 58px;
+  height: 58px;
+  background-image: url("../img/chars/2_CHARS_skill_Lleyn_2.png");
+  background-repeat: no-repeat;
+}
+
+
+
+.char__skill {
+  display: block;
+  color: rgb(249, 244, 233);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.char__skill-descr {
+  display: block;
+  width: 295px;
+  font-size: 16px;
+  color: rgb(188, 190, 193);
+  text-align: left;
+}
+
+.char__icons {
+  position: relative;
+  width: 135px;
+  height: 490px;
+}
+
+.char__icon1 {
+  width: 132px;
+  height: 135px;
+  margin-top: 14px;
+  background-image: url("../img/chars/2_CHARS_icon_Isolda_inactive.png");
+  background-repeat: no-repeat;
+}
+.char__icon1:hover {
+  background-image: url("../img/chars/2_CHARS_icon_Isolda_hover.png");
+}
+.char__icon1:active {
+  background-image: url("../img/chars/2_CHARS_icon_Isolda_active.png");
+}
+
+.char__icon2 {
+  position: absolute;
+  top: 190px;
+  left: 0;
+
+  width: 132px;
+  height: 135px;
+  background-image: url("../img/chars/2_CHARS_icon_Pamela_inactive.png");
+  background-repeat: no-repeat;
+}
+.char__icon2:hover {
+  background-image: url("../img/chars/2_CHARS_icon_Pamela_hover.png");
+}
+.char__icon2:active{
+  background-image: url("../img/chars/2_CHARS_icon_Pamela_active.png");
+}
+
+.char__icon3 {
+  content: "";
+  position: absolute;
+  top: 368px;
+  left: 0;
+
+  width: 132px;
+  height: 135px;
+  background-image: url("../img/chars/2_CHARS_icon_Lleyn_inactive.png");
+  background-repeat: no-repeat;
+}
+.char__icon3:hover {
+  background-image: url("../img/chars/2_CHARS_icon_Lleyn_hover.png");
+}
+.char__icon3:active {
+  background-image: url("../img/chars/2_CHARS_icon_Lleyn_active.png");
+}
